@@ -306,3 +306,9 @@ ro.vendor.mtk_wfd_support=1
 
 # Zygote
 zygote.critical_window.minute=10
+
+# Dex2oat
+pm.dexopt.bg-dexopt=everything
+
+# Visual performance
+vendor.perf.framepacing.enable=1
