@@ -335,6 +335,8 @@ PRODUCT_COPY_FILES += \
 
 # MiuiCamera
 $(call inherit-product-if-exists, device/xiaomi/emerald-miuicamera/device.mk)
+PRODUCT_PACKAGES += \
+    MiuiCameraOverlayIcon
 
 # Overlays
 PRODUCT_PACKAGES += \
