@@ -14,5 +14,8 @@ allow hal_power_default sysfs_therm:dir search;
 # Touchfeature (xiaomi-touch)
 allow hal_power_default touchfeature_device:chr_file rw_file_perms;
 
+# Touchfeature (xiaomi-touch)
+allow hal_power_default touchfeature_device:chr_file rw_file_perms;
+
 # To get/set powerhal state property
 set_prop(hal_power_default, vendor_power_prop)
