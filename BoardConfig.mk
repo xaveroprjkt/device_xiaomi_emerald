@@ -198,3 +198,4 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 
 # Inherit the proprietary files
 include vendor/xiaomi/emerald/BoardConfigVendor.mk
+-include device/xiaomi/emerald-miuicamera/BoardConfig.mk
