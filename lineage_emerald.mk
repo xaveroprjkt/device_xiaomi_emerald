@@ -11,22 +11,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# Inherit from tanzanite device
-$(call inherit-product, device/xiaomi/tanzanite/device.mk)
+# Inherit from emerald device
+$(call inherit-product, device/xiaomi/emerald/device.mk)
 
-PRODUCT_DEVICE := tanzanite
-PRODUCT_NAME := lineage_tanzanite
+PRODUCT_DEVICE := emerald
+PRODUCT_NAME := lineage_emerald
 PRODUCT_BRAND := Redmi
-PRODUCT_MODEL := 24117RN76O
+PRODUCT_MODEL := 23117RA68G
 PRODUCT_MANUFACTURER := xiaomi
 
-PRODUCT_SYSTEM_NAME := tanzanite_n_gl
-PRODUCT_SYSTEM_DEVICE := tanzanite
+PRODUCT_SYSTEM_NAME := emerald_global
+PRODUCT_SYSTEM_DEVICE := emerald
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="missi-user 15 AP3A.240905.015.A2 OS2.0.202.0.VOGEUXM release-keys" \
-    BuildFingerprint=Redmi/tanzanite_id/tanzanite:15/AP3A.240905.015.A2/OS2.0.202.0.VOGEUXM:user/release-keys \
+    BuildDesc="missi-user 15 AP3A.240905.015.A2 OS2.0.208.0.VNFMIXM release-keys" \
+    BuildFingerprint=Redmi/emerald_global/emerald:15/AP3A.240905.015.A2/OS2.0.208.0.VNFMIXM:user/release-keys \
     DeviceName=$(PRODUCT_SYSTEM_DEVICE) \
     DeviceProduct=$(PRODUCT_SYSTEM_NAME)
