@@ -1585,7 +1585,7 @@ vendor/lib64/hw/libSoftGatekeeper.so
 # GNSS
 vendor/bin/hw/android.hardware.gnss-service.mediatek
 vendor/bin/mnld
-vendor/bin/mtk_agpsd
+vendor/bin/mtk_agpsd;DISABLE_CHECKELF
 vendor/etc/init/android.hardware.gnss-service.mediatek.rc
 vendor/etc/init/init.gps_drv.rc
 vendor/etc/init/init.gps_pwr.rc
