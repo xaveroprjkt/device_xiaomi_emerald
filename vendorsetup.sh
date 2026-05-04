@@ -1,9 +1,5 @@
 #!/bin/bash
 
-deviceDir=$(gettop)/device/xiaomi/emerald
-
-${deviceDir}/applypatch.sh ${deviceDir}/patches
-
 echo "Cleaning Dummy Stuffs"
 rm -rf hardware/mediatek
 rm -rf hardware/xiaomi
