@@ -97,7 +97,6 @@
 
         <!-- GameBar AppSelector -->
         <activity android:name=".gamebar.GameBarAppSelectorActivity" />
-        <activity android:name=".gamebar.GameBarAppRemoverActivity" />
 
         <!-- GameBar Overlay Tile Service -->
         <service
