@@ -171,6 +171,11 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
     'vendor/lib64/librt_extamp_intf.so': blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+     (
+        'vendor/lib64/libcodec2_mtk_venc.so',
+        'vendor/lib64/libcodec2_mtk_vdec.so',
+     ): blob_fixup()
+        .replace_needed('libformatter.so', 'libformatter_mtk.so')
 }  # fmt: skip
 
 module = ExtractUtilsModule(
