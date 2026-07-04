@@ -1606,7 +1606,7 @@ vendor/lib64/hw/gps.default.so
 vendor/lib64/librpc.so
 vendor/lib64/libviagpsrpc.so
 vendor/lib64/mt6789/libDR.so
-vendor/lib64/mt6789/libmnl.so
+vendor/lib64/mt6789/libmnl.so:vendor/lib64/mt6789/libmnl_mtk.so;FIX_SONAME
 
 # GNSS (Configs)
 vendor/etc/MNL_Config.xml
