@@ -84,11 +84,6 @@ TARGET_RO_FILE_SYSTEM_TYPE := erofs
 PRODUCT_VENDOR_PROPERTIES += ro.virtual_ab.compression.threads=true
 endif
 
-# Boot control (A/B Updates)
-PRODUCT_PACKAGES += \
-    com.android.hardware.boot \
-    android.hardware.boot-service.default_recovery
-
 # Audio
 TARGET_EXCLUDES_AUDIOFX := true
 $(call soong_config_set_bool,android_hardware_audio,skip_speaker_layout_channel_mask_field,true)
@@ -152,9 +147,6 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.xiaomi \
-    libudfpshandler
-
-PRODUCT_PACKAGES += \
     libudfpshandler \
     sensors.xiaomi.v2:64
 
