@@ -1434,6 +1434,7 @@ vendor/lib64/liboemcrypto.so
 vendor/lib64/libwvhidl.so
 vendor/lib64/libwvkeybox.so
 vendor/lib64/mediadrm/libwvdrmengine.so
+vendor/lib64/libOemcrypto_Hal.so
 
 # Dolby
 vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
