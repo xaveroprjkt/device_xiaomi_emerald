@@ -77,6 +77,17 @@ vendor.connsys.driver.ready=no
 # Crypto
 ro.crypto.volume.filenames_mode=aes-256-cts
 
+# Display
+ro.vendor.display.type=oled
+sys.displayfeature_hidl=true
+vendor.displayfeature.entry.enable=true
+vendor.hbm.enable=true
+ro.vendor.localhbm.enable=true
+persist.vendor.dc_backlight.enable=false
+ro.vendor.colorpick_adjust=true
+ro.vendor.all_modes.colorpick_adjust=true
+ro.vendor.display.is_standard_mode=true
+
 # Dolby
 ro.vendor.audio.device.dbcom=dolby_common
 ro.vendor.dolby.dax.version=DAX3_3.6.0.12_r1
